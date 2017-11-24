@@ -14,11 +14,9 @@ server.get('/about', (req, res) => {
 })
 
 
-// server.use('/', [
-//   require('./routes/animals'),
-//   require('./routes/tickets'),
-//   require('./routes/seacritters')
-// ])
+server.use('/', [
+  require('./routes/artists')
+])
 
 server.listen(7000, () => {
   console.log('Started at http://localhost:7000')
