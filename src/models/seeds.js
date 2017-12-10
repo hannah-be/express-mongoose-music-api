@@ -1,3 +1,4 @@
+// Require the model
 const Artist = require('./artist')
 
 // List all existing artists
